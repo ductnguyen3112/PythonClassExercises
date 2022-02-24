@@ -1,10 +1,15 @@
 import time
-def password_checker():
+def pin_checker():
 
-    correct_passwd = 41*3
+    correct_passwd = 123
     print("Please Enter the PIN")
     while True:
         password = input("PIN:  ")
+
+
+
+
+
         if password == correct_passwd:
 
             print('Logged In, Welcome!')
@@ -25,8 +30,8 @@ def password_checker():
             break
             #####function stop######
         else:
-            print("Invalid PIN, please try again...")
-password_checker()
+            print("Invalid , please try again...")
+pin_checker()
 
 
 
