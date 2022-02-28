@@ -14,6 +14,7 @@ games.append(add_strings)
 print("The list after appending is: " + str(games))
 
 
+print('#################################################')
 # 2. Loop through the list and print out all string longer than 7.
 
 for game in games:
@@ -29,14 +30,16 @@ def count_rounds():
         rounds = rounds - 10
         time.sleep(0.5)
 
-
 # 4. Create a function that takes in a string and returns a list with every other letter in that string
 def return_list():
     question = "Create a function that takes in a string and returns a list with every other letter in that string"
 
+    print('#################################################')
     print(question[::2])
 
 # 5. Call the functions you created in questions 3 and 4
+
+
 
 count_rounds()
 return_list()
