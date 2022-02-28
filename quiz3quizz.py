@@ -1,7 +1,7 @@
 '''
 QUIZ #2
-Name: 
-ID: 
+Name: Thinh Nguyen (Tony)
+ID: 2210362
 
 Follow the instructions in the comments below. Then upload this file, with your answers, to Omnivox.
 '''
@@ -38,8 +38,6 @@ def return_list():
     print(question[::2])
 
 # 5. Call the functions you created in questions 3 and 4
-
-
 
 count_rounds()
 return_list()
